@@ -333,6 +333,8 @@ footer h2{
   .show-sm {    display: block; }
   .hide-sm {    display: none;  }
 
+  .a-inline-block {display: inline-block;}
+
 
 	 
   .sm-text-center { 
@@ -352,6 +354,9 @@ footer h2{
               
   .sm-padded-t-0 { 
                 padding-top: 0; }
+  .sm-padded-t-05 { 
+                    padding-top: 0.5rem; }
+
   .sm-padded-b-0 { 
                 padding-bottom: 0; }
   .sm-padded-l-0 { 
@@ -361,6 +366,8 @@ footer h2{
                 
   .sm-margin-t-0 { 
                 margin-top: 0; }
+  .sm-margin-t-05 {
+                margin-top:0.5rem;}
 
   .sm-margin-b-0 { 
                 margin-bottom: 0; }
@@ -383,6 +390,8 @@ footer h2{
 
   .sm-tall-30 {min-height: 30vh;}
   .sm-tall-100 {min-height: 100vh;}
+
+  .border-none {border: none;}
 
 
 }
