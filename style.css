@@ -31,166 +31,276 @@ h1,h2,h3,h4,h5,h6,p, a {
 /* End temporary styles */
 
 
-/* Utility classes */
-
-.tall-50 { min-height: 50vh; }
-.tall-60 { min-height: 60vh; }
-.tall-70 { min-height: 70vh; }
-.tall-80 { min-height: 80vh; }
-.tall-90 { min-height: 90vh; }
-
-.padded    { padding: 5%;    }
-.padded-lg { padding: 10%;   }
-.padded-1  { padding: 1rem;  }
-.padded-2  { padding: 2rem;  }
-
-.margin-b-0 { margin-bottom: 0; }
-.margin {margin: 1%;}
-
-.bg-featured { background-color: #1C2A2C; }
-.bg-dark     { background-color: #24282B; }
-
-.light-text { color: white; } 
-
-.left   { text-align: left; }
-.center { text-align: center; }
-.right  { text-align: right; }
 
 
-/* Typography */
+/*-------------CSS Reset-----------*/
+* {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+  }
+  
+  img {         max-width: 100%; }
+  
+  /* Optional padding to override default gridlex columns */ 
+                [class*=col] { padding: 0; }
+
+/*----------------------Universal Styles and Utility Classes---------------*/
+
+/*---------- Minimum Height --------*/
+
+.tall-50 {      min-height: 50vh; }
+.tall-60 {      min-height: 60vh; }
+.tall-70 {      min-height: 70vh; }
+.tall-80 {      min-height: 80vh; }
+.tall-90 {      min-height: 90vh; }
+.tall-100 {     min-height: 100vh;}
+
+/*------- Padding Utility Classes-------*/
+
+.padding-sm {   padding:2.5%;}
+.padded     {   padding: 5%;    }
+.padded-lg  {   padding: 10%;   }
+
+.padded-05 {    padding: 0.5rem;}
+.padded-1  {    padding: 1rem;  }
+.padded-2  {    padding: 2rem;  }
+
+.padded-t  {    padding-top: 5%; }
+.padded-b  {    padding-bottom: 5%; }
+.padded-l  {    padding-left: 5%; }
+.padded-r  {    padding-right: 5%; }
+
+.padded-tb  {   padding-top: 5%; padding-bottom: 5%; }
+.padded-lr  {   padding-left: 5%; padding-right: 5%; }
+
+.padded-t-1 {   padding-top: 1rem; }
+.padded-b-1 {   padding-bottom: 1rem; }
+.padded-l-1 {   padding-left: 1rem; }
+.padded-r-1 {      padding-right: 1rem; }
+
+.padded-t-2 {   padding-top: 2rem; }
+.padded-b-2 {   padding-bottom: 2rem; }
+.padded-l-2 {   padding-left: 2rem; }
+.padded-r-2 {   padding-right: 2rem; }
+
+.padded-t-0 {   padding-top: 0; }
+.padded-b-0 {   padding-bottom: 0; }
+.padded-l-0 {   padding-left: 0; }
+.padded-r-0 {   padding-right: 0; }
+
+/*------Margin Utility Classes--------------*/
+
+
+.margin {margin: 1%;} 
+
+.margin-t-0 {   margin-top: 0; }
+.margin-b-0 {   margin-bottom: 0; }
+.margin-l-0 {   margin-left: 0; }
+.margin-r-0 {   margin-right: 0; }
+
+.margin-t {     margin-top: 5%; }
+.margin-b {     margin-bottom: 5%; }
+.margin-l {     margin-left: 5%; }
+.margin-r {     margin-right: 5%; }
+
+.margin-t-1 {   margin-top: 1rem; }
+.margin-b-1 {   margin-bottom: 1rem; }
+.margin-l-1 {   margin-left: 1rem; }
+.margin-r-1 {   margin-right: 1rem; }
+
+.margin-t-2 {   margin-top: 2rem; }
+.margin-b-2 {   margin-bottom: 2rem; }
+.margin-l-2 {   margin-left: 2rem; }
+.margin-r-2 {   margin-right: 2rem; }
+
+.margin-tb {    margin-top: 5%; margin-bottom: 5%; }
+.margin-lr {    margin-left: 5%; margin-right: 5%; }
+
+
+/*--------- Typography --------------------*/
+
+.left   {       text-align: left; }
+.center {       text-align: center; }
+.right  {       text-align: right; }
 
 body {
-font-family: 'Montserrat', sans-serif;
+                font-family: 'Montserrat', sans-serif;
 }
+
+h2, h3, h4, h5, h6 {
+                line-height: 1.1;
+                margin-bottom: 1.2rem;
+  }
+
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    font-family: 'Lato', sans-serif;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-family: 'Lato', sans-serif;
 }
 
-h1 { font-size: 2rem;
-    line-height: 1.2;} 
-h2 { font-size: 1.5rem; 
-    line-height: 0.9;} 
-h3 {font-weight: 100;}
+h1 {            font-size: 2rem;}
+h2 {            font-size: 1.5rem;} 
+h3 {            font-weight: 100;}
 
+.light-text {    color: white; } 
 
-
-.not-bold { font-weight: 400; }
+.not-bold {     font-weight: 400; }
 
 .subtle { 
-    opacity: 0.8;
-    font-size: 0.9rem;
-    font-style: italic;
+                opacity: 0.8;
+                font-size: 0.9rem;
+                font-style: italic;
 }
 
 p, li {
- font-weight: 300;   
- line-height: 1.4;
- margin-bottom: 0.8rem;
- font-size: 1.1rem;
+                font-weight: 300;   
+                line-height: 1.4;
+                margin-bottom: 0.8rem;
+                font-size: 1.1rem;
 }
 
-p:last-child, 
+h2:last-child, 
+h3:last-child, 
+h4:last-child, 
+h5:last-child, 
+h6:last-child, 
+p:last-child
 li:last-child {
-    margin-bottom: 0;
+	            margin-bottom: 0;
 }
 
-a { color: inherit; 
-    text-decoration: none;}
+.font-dark   {  color:#24282B;}
 
-nav a { text-decoration: none; }
+.small-text  {  font-size: 1.5rem;}
+.medium-text {  font-size: 2rem;}
+.big-text    {  font-size: 4.5rem;}
 
-a:hover { color: #4e91ad; }
 
+
+.font-weight-light { 
+              font-weight: 200 ;}
+.font-weight-medium { 
+              font-weight: 500;}
+.font-weight-bold { 
+                font-weight: 900;}
+
+
+/*--------Link Styles-------*/
+
+a {             color: inherit; 
+                text-decoration: none;}
+
+nav a {         text-decoration: none; }
+
+a:hover {       color: #4e91ad; }
+
+/*---------Font Awesome Icons-------*/
+
+.fas,
 .fab {
-    font-size: 1.5rem;
-    padding-left: 1rem;
+                font-size: 1.5rem;
+                padding-left: 1rem;
+              
 }
 
-.font-dark {color:#24282B;}
+
+
+/*--------------Images-------------------------------------------*/
+
+
+.bg-featured {  background-color: #1C2A2C; }
+.bg-dark     {  background-color: #24282B;
+                color: white; }
+
+.bg-light {     background-color: rgb(245, 245, 245);}
+
+.bg-image {
+                background-color: white; 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat;
+                background-image: url('images/sebastian_4.jpg')
+}
+
+/* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
+
+.landscape     { padding-bottom: 66%:  }
+.portrait-tall { padding-bottom: 175%; }
+.portrait      { padding-bottom: 125%; }
+.square        { padding-bottom: 100%; }
+
+/* Background Position */
+.bg-pos-t {      background-position: top; }
+.bg-pos-b {      background-position: bottom; }
+.bg-pos-l {      background-position: left; }
+.bg-pos-r {      background-position: right; }
+
+.bg-glas {
+                background-image: url('/images/sebastian_4.jpg');
+                background-position: top;
+}
+.bg-nett {
+                background-image: url('/images/sebastian_6.jpg');
+                background-position: top;
+}
+.bg-rund {
+                background-image: url('/images/sebastian_15.png');
+}
+.bg-anders {
+                background-image: url('/images/the-bunker-8.jpg');
+}
+
+.bg-padded {
+                padding-bottom: 30%;
+}
+
+.social-banner {
+                background-position: top;
+}
+
+
 
 
 
 /*-------------------- Header--------------------------- */
 
 header {
-    padding: 1% 5%;
+                padding: 1% 5%;
   }
 
   header h2 {
-    text-decoration: none;
+                text-decoration: none;
   }
 
   
   
   .emphasis-button {
-    border: 2px solid;
-    margin-left: 0.5rem;
+                border: 2px solid;
+                margin-left: 0.5rem;
   }
 
   header a {
-      padding: 0.5rem;
+                padding: 0.5rem;
   }
 
 /*----------------------Footer----------------------------*/
 
 footer p{
-    margin-bottom: 0.2rem;
+                margin-bottom: 0.2rem;
 }
 
 footer h2{
-    font-size: 1.5rem;
-    line-height: 1;
+                font-size: 1.5rem;
+                line-height: 1;
 }
 
 .inline a {
-    display:inline-block;
-    padding: 0.5rem;
+                display:inline-block;
+                padding: 0.5rem;
   }
   
-
-/*--------------Images-------------------------------------------*/
-
-.bg-image {
-    background-color: #24282B; 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-image: url('images/sebastian_4.jpg')
-}
-
-.bg-glas {
-    background-image: url('/images/sebastian_4.jpg');
-    background-position: top;
-}
-.bg-bed {
-    background-image: url('/images/the-bunker-1.jpg');
-}
-.bg-hallway {
-    background-image: url('/images/the-bunker-3.jpg');
-}
-.bg-lounge {
-    background-image: url('/images/the-bunker-4.jpg');
-}
-.bg-lounge-2 {
-    background-image: url('/images/the-bunker-2.jpg');
-}
-.bg-sheets {
-    background-image: url('/images/the-bunker-7.jpg');
-}
-.bg-map {
-    background-image: url('/images/the-bunker-6.png');}
-
-.bg-padded {
-    padding-bottom: 30%;
-}
-
-.social-banner {
-    background-position: top;
-}
 
 
 
