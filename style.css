@@ -369,15 +369,23 @@ footer h2{
   .sm-margin-t-05 {
                 margin-top:0.5rem;}
 
+
   .sm-margin-b-0 { 
                 margin-bottom: 0; }
   .sm-margin-b-05 {
                     margin-bottom:0.5rem;}
 
+
   .sm-margin-l-0 { 
                 margin-left: 0; }
   .sm-margin-l-05 { 
-                    margin-left: 0.5rem; }
+                margin-left: 0.5rem; }
+  .sm-margin-l-r-1 { 
+                margin-left: 1rem;
+                margin-right: 1rem;
+                         }
+
+
   .sm-margin-r-0 { 
                 margin-right: 0; }
  
