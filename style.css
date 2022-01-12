@@ -403,6 +403,11 @@ footer h2{
 
   .border-none {border: none;}
 
+  .sm-img {
+                padding: 40%;
+                margin: 0.19rem;
+  }
+
 
 }
               
