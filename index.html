@@ -21,8 +21,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;600;700&display=swap" rel="stylesheet">
 
+        <!--- Main CSS that handles all the functionality --->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--- Slick theme that handles the way everything slides. Optional but very helpful --->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <!-- My own custom stylesheet -->
         <link rel="stylesheet" href="/style.css">
+
 
 </head>
 
@@ -30,20 +37,39 @@
 
 <!------------------Navigation Section---------------------------------------->
     <header class="grid">
+
         <div class="col-4-middle__md-3_sm-12">
           <a href="/">
             <h2 class="logo sm-margin-b-05 sm-margin-l-05"> Sebastian Russold  </h2>
             <h3 class="sm-font-size-sm sm-margin-l-05"> Sommelier | Gastgeber | Weinliebhaber </h3>
           </a>
         </div>
-        <nav class="col-8-middle_md-9_sm-12 right padded sm-text-left sm-padded-l-0 ">
+
+        <nav class="col-8-middle_md-9_sm-12 right padded hide-sm">
           <a href="#"> Home </a>
           <a href="#"> Über mich </a>
           <a href="#"> Service </a>
           <a href="#"> Kontakt </a>
           <a href="#" class="emphasis-button border-none sm-padded-l-0 a-inline-block"> Call to Action </a>
         </nav>
+
+        <div class="col-7 right">
+          <a class="hamburger-button show-sm"> &#9776; </a>
+        </div>
+
       </header>
+  <!-------------------------Mobile Menu-------------------------->
+
+      <div class="mobile-menu">
+        <nav>
+          <a href="#"> Home </a>
+          <a href="#"> Über mich </a>
+          <a href="#"> Service </a>
+          <a href="#"> Kontakt </a>
+          <a href="#" class="emphasis-button border-none sm-padded-l-0 a-inline-block"> Call to Action </a> 
+        </nav>
+      </div>
+      
 
 <!-------------------Intro Section--------------------------------------->
 
@@ -65,7 +91,7 @@
  <!-----------------Über mich Section-------------------------------------->
 
 <section class="grid padded right tall-60">
-  <div class="col-6 bg-image bg-nett bg-padded xxs-stack sm-img">
+  <div class="col-6 bg-image bg-nett bg-padded xxs-stack xxs-img">
 
   </div>
   <div class="col-6-middle padded xxs-stack">
@@ -77,13 +103,64 @@
 
 <!---------------------Service-------------------------------->
 
-<section class="grid">
- <div class="col-6-middle padded xxs-stack">
-      <h2>Service </h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos modi ab recusandae repudiandae error impedit maxime dolorem accusamus quod cum laudantium, dolore tempore esse magnam quidem? Blanditiis optio modi voluptates.</p>
- </div>
- <div class="col-6 bg-image bg-rund tall-50 bg-padded xxs-stack"></div>
-</section>
+<section class="grid padded">
+  <h2 class="col-12 center"> Services </h2>
+
+  
+  <div class="col-12">
+  <!-------------Carousel---------->
+  <div class="grid-spaceBetween">
+    <div class="col-1"></div>
+
+    <div class="testimonial-slider-container testimonial col-8 padded">
+    
+  <!----------First Slide----->
+  
+      <div class="slider-item card bg-light">
+            <h2 class="services">Restaurant</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+      </div>
+  
+  <!--------Second Slide----->
+      <div class="slider-item card bg-teal">
+          <h2 class="services">Veranstaltungen</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+      </div>
+  <!---------Third Slide------->
+  
+     <div class="slider-item card bg-blue">
+        <h2 class="services">Moderation</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+      </div>
+
+  <!--------Fourth Slide------------>
+      <div class="slider-item card bg-yellow">
+        <h2 class="services">Handel</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ut vero commodi at veniam perspiciatis incidunt itaque. Autem alias amet nemo similique, quo eligendi voluptate adipisci cum a et reprehenderit.</p>
+      </div>
+
+    </div>
+
+    <div class="col-1"></div>
+  </div>
+  </div>
+
+  
+
+  
+  </section>
 
 <!-------------------Kontakt----------------------->
 
@@ -140,6 +217,14 @@
   </footer>
 
 
+  <!----------jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  
+  <script type="text/javascript" src="main.js"></script>
 </body>
 
 

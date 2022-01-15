@@ -186,6 +186,26 @@ li:last-child {
 .font-weight-bold { 
                 font-weight: 900;}
 
+.quote-icon {
+                font-size: 2rem;
+                  
+                }
+                
+.testimonial {
+                font-size: 0.9rem;
+                margin-top: 1rem;
+                text-align: center;
+                }
+
+.services {     font-size: 1rem;
+                font-style: italic}
+                
+.author {
+                text-align: right;
+                margin-bottom: 0;
+                margin-right: 1rem;
+                }
+
 
 /*--------Link Styles-------*/
 
@@ -216,6 +236,9 @@ a:hover {       color: #4e91ad; }
                 color: white; }
 
 .bg-light {     background-color: rgb(245, 245, 245);}
+.bg-blue {      background-color: lightblue;}
+.bg-teal {      background-color:teal;}
+.bg-yellow {    background-color: lightyellow}
 
 .bg-image {
                 background-color: white; 
@@ -261,6 +284,83 @@ a:hover {       color: #4e91ad; }
                 background-position: top;
 }
 
+.card {border-radius: 1rem;}
+
+
+/*------------------- Slider------------------------------- */
+
+.testimonial-slider-container {
+                /*border: 2px solid lightblue;*/
+                padding:2%;
+                max-width: 900px;
+                margin: auto; /*centers the text evenly*/
+}
+
+  
+.slider-item {
+                padding: 1rem;
+                /*border: 2px solid lightgreen;*/
+                display: none; /* Plus .slider-item:first-child saves the first image to  be shown if js collapses*/
+}
+
+.slider-item:first-child {
+                display: block;
+}
+
+.slider-item:nth-child(odd){
+                /*border: 2px solid teal;*/
+}
+
+slick-next:before {
+                content: '→';
+}
+
+.slick-next::before, .slick-prev::before {
+                font-family: 'Bungee', cursive;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1;
+                opacity: .75;
+                color: rgb(90,90,90);
+}
+
+
+
+/* -----Puts the arrows inside the parent container------
+
+.slick-prev {
+   	            left: 0.1%%;
+}
+
+.slick-next {
+   	            right: 0.3%;
+}*/
+
+/*-------Dots----*/
+.slick-dots {
+                bottom: -15%;
+                left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+
+.slick-dots li,
+.slick-dots li button {
+            	  width: 12px;
+}
+
+.slick-dots li button::before {
+                font-size: 10px;
+                color: rgb(0, 128, 128);
+}
+
+.slick-dots li.slick-active button::before {
+   	            color: teal;
+}
+
+/*-------Slider Text Styles-----*/
+
+.slider-item-p {
+                text-align: justify;
+}
 
 
 
@@ -269,6 +369,7 @@ a:hover {       color: #4e91ad; }
 
 header {
                 padding: 1% 5%;
+               
   }
 
   header h2 {
@@ -285,6 +386,45 @@ header {
   header a {
                 padding: 0.5rem;
   }
+
+  /*--------------Hamburger Menu-----------------*/
+
+  .hamburger-button {
+                cursor: pointer;
+                padding:0 0.5rem;
+                display: inline-block;
+                font-weight:100;
+                font-size: 2rem;
+                line-height: 0.8;
+                position: fixed;
+                right: 1rem;
+                top: 1.7rem;
+                z-index:2;
+  }
+  
+  .mobile-menu {
+                background-color: lightblue;
+                padding: 5%;
+                display:none;
+                position:fixed;
+                top: 0;
+                bottom: 0;
+                right:0;
+                left:0;
+  }
+
+  .mobile-menu a {
+                text-decoration: none; 
+                color: inherit; 
+                padding: 5vh 5%;
+                display: block;
+                font-weight: normal;
+                font-size: 1.5rem;
+}
+  
+  .hamburger-button.active {
+                color:white;}
+
 
 /*----------------------Footer----------------------------*/
 
@@ -403,10 +543,6 @@ footer h2{
 
   .border-none {border: none;}
 
-  .sm-img {
-                padding: 40%;
-                margin: 0.19rem;
-  }
 
 
 }
@@ -428,4 +564,11 @@ footer h2{
                 max-width: 100%;
     }
   .hide-xxs {display:none;}
+
+  .xxs-img {
+    padding: 40%;
+    margin: 0.19rem;
 }
+}
+
+
