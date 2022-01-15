@@ -290,6 +290,7 @@ a:hover {       color: #4e91ad; }
 }
 .bg-rund {
                 background-image: url('/images/sebastian_15.png');
+                padding-bottom: 10%
 }
 .bg-anders {
                 background-image: url('/images/the-bunker-8.jpg');
@@ -315,6 +316,11 @@ a:hover {       color: #4e91ad; }
 
 .window {       border-top-left-radius: 3rem;
                 border-top-right-radius: 3rem; }
+
+.teardrop {     border-radius: 20rem;
+                border-bottom-right-radius: 0;}
+
+.rund {         border-radius: 20rem;}
 
 
 /*------------------- Slider------------------------------- */
