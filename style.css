@@ -114,6 +114,7 @@ html {
 .margin-t {     margin-top: 5%; }
 .margin-b {     margin-bottom: 5%; }
 .margin-l {     margin-left: 5%; }
+.margin-l-25 {  margin-left: 2.5%}
 .margin-r {     margin-right: 5%; }
 
 .margin-t-1 {   margin-top: 1rem; }
@@ -241,6 +242,7 @@ a:hover {       color: #4e91ad; }
                 padding-left: 1rem;
                 display: block;
                 margin-bottom: 2rem;
+                color: rgb(29,53,87);
 }
 
 
@@ -403,7 +405,9 @@ slick-next:before {
 /*-------------------- Header--------------------------- */
 
 header {
-                padding: 1% 5%;
+                padding: 1% 2%;
+                padding-left: 2%;
+                
                
   }
 
