@@ -74,9 +74,12 @@ html {
 .padded     {   padding: 5%;    }
 .padded-lg  {   padding: 10%;   }
 
+
 .padded-05 {    padding: 0.5rem;}
 .padded-1  {    padding: 1rem;  }
 .padded-2  {    padding: 2rem;  }
+.padded-25 {    padding: 2.5rem}    
+.padded-26 {    padding: 2.6rem}    
 
 .padded-t  {    padding-top: 5%; }
 .padded-b  {    padding-bottom: 5%; }
@@ -129,6 +132,7 @@ html {
 
 .margin-tb {    margin-top: 5%; margin-bottom: 5%; }
 .margin-lr {    margin-left: 5%; margin-right: 5%; }
+.margin-lr-7 {  margin-left: 7%; margin-right:7%;}
 
 
 /*--------- Typography --------------------*/
@@ -282,8 +286,12 @@ a:hover {       color: #4e91ad; }
 .bg-pos-l {      background-position: left; }
 .bg-pos-r {      background-position: right; }
 
+.bg-logo {       background-image: url(/images/Canvas.png);}
+
+.bg-bottles {    background-image: url(/images/hermes-rivera-aK6WGqxyHFw-unsplash\ \(1\).jpg);}
+
 .bg-glas {
-                background-image: url('/images/sebastian_4.jpg');
+                background-image: url('/images/sebastian_1.jpg');
                 background-position: top;
 }
 .bg-nett {
@@ -312,7 +320,7 @@ a:hover {       color: #4e91ad; }
                 background-position: top;
 }
 
-.card {         border-radius: 3rem;
+.card {         border: 3rem #24282B;
 }
 
 .window {       border-top-left-radius: 3rem;
@@ -322,6 +330,10 @@ a:hover {       color: #4e91ad; }
                 border-bottom-right-radius: 0;}
 
 .rund {         border-radius: 20rem;}
+
+[class*=grid-]>[class*=col-3] {
+  flex-basis: 29%;
+}
 
 
 /*------------------- Slider------------------------------- */
