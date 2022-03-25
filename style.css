@@ -61,6 +61,7 @@ html {
 
 /*---------- Minimum Height --------*/
 
+.tall-30 {      min-height: 30vh; }
 .tall-50 {      min-height: 50vh; }
 .tall-60 {      min-height: 60vh; }
 .tall-70 {      min-height: 70vh; }
@@ -243,7 +244,6 @@ a:hover {       color: #4e91ad; }
 .fas,
 .fab {
                 font-size: 1.5rem;
-                padding-left: 1rem;
                 display: block;
                 margin-bottom: 2rem;
                 color: rgb(29,53,87);
@@ -305,12 +305,16 @@ a:hover {       color: #4e91ad; }
                 background-image: url('/images/the-bunker-8.jpg');
 }
 
-.bg-restaurant {      background-image: url('images/restaurant.jpeg')}
+.bg-restaurant {background-image: url('images/restaurant.jpeg')}
 
 .bg-event {     background-image: url('images/event.jpeg');}
 
-.bg-tasting {   background-image: url('images/verkostung.jpeg')
+.bg-tasting {   background-image: url('images/verkostung.jpeg');
                 padding-bottom: 66%: }
+
+.bg-sommelier { background-image: url(/images/sommelier-union.png);}
+
+.bg-louis    {  background-image: url(/images/louis.png);}
 
 .bg-padded {
                 padding-bottom: 30%;
@@ -430,13 +434,15 @@ header {
   
   
   .emphasis-button {
-                border: 2px solid;
+                border: 1px solid;
                 margin-left: 0.5rem;
   }
 
   header a {
                 padding: 0.5rem;
   }
+
+  .fixed {      position: fixed;}
 
   /*--------------Hamburger Menu-----------------*/
 
@@ -490,7 +496,7 @@ footer h2{
 
 .inline a {
                 display:inline-block;
-                padding: 0.5rem;
+                padding-right: 1.7rem;
   }
 
 
