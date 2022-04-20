@@ -448,16 +448,17 @@ header {
 
   .hamburger-button {
                 cursor: pointer;
-                padding:0 0.5rem;
+                padding:0 0.7rem;
                 display: inline-block;
                 font-weight:100;
                 font-size: 2rem;
                 line-height: 0.8;
-                position: fixed;
                 right: 1rem;
                 top: 1.7rem;
                 z-index:2;
   }
+
+  .fixed {position: fixed;}
   
   .mobile-menu {
                 background-color: lightblue;
@@ -556,6 +557,17 @@ footer h2{
 
   .sm-padded-b-0 { 
                 padding-bottom: 0; }
+
+  .sm-padded-b-05 { 
+                  padding-bottom: 0.5rem; }
+
+  .sm-padded-tb-05 { 
+                  padding-bottom: 0.5rem; 
+                  padding-top: 0.5rem;}
+  .sm-padded-tb-05 { 
+                  padding-bottom: 1rem; 
+                  padding-top: 1rem;}
+
   .sm-padded-l-0 { 
                 padding-left: 0; }
   .sm-padded-r-0 { 
@@ -596,11 +608,14 @@ footer h2{
   }
 
   .sm-tall-30 {min-height: 30vh;}
+  .sm-tall-50 {min-height: 50vh;}
   .sm-tall-100 {min-height: 100vh;}
 
   .border-none {border: none;}
 
+ 
 
+#slider-container-sm {padding:9%;}
 
 }
               
@@ -611,6 +626,8 @@ footer h2{
   .show-xs {     display: block; }
   .hide-xs {     display: none;  }
               }
+
+  
 
 /* ------- Optional XXS Media Query (25em / 400px) NOT part of default Gridlex styling--------------- */ 
 /* - Styles added here will apply at devices smaller than 400px, or zoomed in equivalent */ 
