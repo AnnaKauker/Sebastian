@@ -22,7 +22,7 @@ $('.hamburger-button').click(function(){
             }
         },
         {
-        breakpoint: 768,
+        breakpoint: 1554,
         settings: {
             autoplay: true, // Do we want it to autoplay? true or false
             autoplaySpeed: 3000, // How long between each slide when auto-playing

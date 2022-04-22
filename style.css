@@ -135,6 +135,10 @@ html {
 .margin-lr {    margin-left: 5%; margin-right: 5%; }
 .margin-lr-7 {  margin-left: 7%; margin-right:7%;}
 
+.center-vertical {
+                justify-content: center;
+}
+
 
 /*--------- Typography --------------------*/
 
@@ -246,7 +250,7 @@ a:hover {       color: #4e91ad; }
                 font-size: 1.5rem;
                 display: block;
                 margin-bottom: 2rem;
-                color: rgb(29,53,87);
+                color: rgb(248, 249, 250);
 }
 
 
@@ -451,7 +455,7 @@ header {
                 padding:0 0.7rem;
                 display: inline-block;
                 font-weight:100;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 line-height: 0.8;
                 right: 1rem;
                 top: 1.7rem;
@@ -486,6 +490,7 @@ header {
 
 /*----------------------Footer----------------------------*/
 
+
 footer p{
                 margin-bottom: 0.2rem;
 }
@@ -498,7 +503,10 @@ footer h2{
 .inline a {
                 display:inline-block;
                 padding-right: 1.7rem;
+                color:rgb(248, 249, 250)
   }
+
+ .socials {padding-top: 5%;}
 
 
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
@@ -506,8 +514,10 @@ footer h2{
 .show-xs, 
 .show-sm,
 .show-md {
-	            display: none;
+	              display: none;
 }
+
+
 
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
@@ -517,7 +527,39 @@ footer h2{
   .hide-md {    display: none;  }
 
   .md-tall-100 {min-height: 100vh;}
+  .md-tall-20 { min-height: 20vh;}
+  .md-tall-10 { min-height: 10vh;}
+
+  .md-padded-5 {padding:5%;}
+  .md-padded-blr-5 {
+                padding-bottom:5%;
+                padding-left: 5%;
+                padding-right: 5%;}
+
+  .md-margin-tb {
+                margin-top:7%;
+                margin-bottom: 7%}
+
+  .md-padded-0 {padding: 0%;}
+
+  .md-text-center { 
+                text-align: center; }
+
+  .md-font-size-big {
+                font-size: 3.3rem;}
+
+  .md-tall-50 { min-height: 50vh;}
+  .md-tall-40 { min-height: 40vh;}
 }
+
+.md-slick-next:before {display:none;}
+
+
+
+
+
+
+
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
