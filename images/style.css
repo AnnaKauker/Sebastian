@@ -191,7 +191,7 @@ h3:last-child,
 h4:last-child, 
 h5:last-child, 
 h6:last-child, 
-p:last-child
+p:last-child,
 li:last-child {
 	            margin-bottom: 0;
 }
@@ -279,7 +279,7 @@ a:hover {       color: #4e91ad; }
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
-.landscape     { padding-bottom: 66%:  }
+.landscape     { padding-bottom: 66%;  }
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
@@ -314,7 +314,7 @@ a:hover {       color: #4e91ad; }
 .bg-event {     background-image: url('images/event.jpeg');}
 
 .bg-tasting {   background-image: url('images/verkostung.jpeg');
-                padding-bottom: 66%: }
+                padding-bottom: 66%; }
 
 .bg-sommelier { background-image: url(/images/sommelier-union.png);}
 
