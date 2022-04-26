@@ -292,10 +292,11 @@ a:hover {       color: #4e91ad; }
 
 .bg-logo {       background-image: url(/images/Canvas.png);}
 
-.bg-bottles {    background-image: url(/images/hermes-rivera-aK6WGqxyHFw-unsplash\ \(1\).jpg);}
+.bg-bottles {    background-image: url(/images/flaschen.jpg);}
 
 .bg-glas {
-                background-image: url('/images/sebastian_1.jpg');
+                background-image: url('/images/sebastian_1.jpg'); 
+                
                 background-position: top;
 }
 .bg-nett {
