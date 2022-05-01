@@ -4,6 +4,28 @@ $('.hamburger-button').click(function(){
   });
 
 
+$('.read-more').click(function(){
+    $('.more-about').show(1000);
+  });
+
+  $('.read-more').click(function(){
+    $('.less-button').show(1000);
+    $('.more-button').hide(1000);
+  });
+
+
+$('.read-less').click(function(){
+    $('.more-about').hide(1000);
+  });
+
+$('.read-less').click(function(){
+    $('.less-button').hide(1000);
+    $('.more-button').show(1000);
+  });
+
+
+
+
   $('.testimonial-slider-container').slick({
 	responsive: [
         {

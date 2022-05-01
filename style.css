@@ -320,10 +320,10 @@ a:hover {       color: #4e91ad; }
 
 .bg-event {     background-image: url('images/event.jpeg');}
 
-.bg-tasting {   background-image: url('images/verkostung.jpeg');
-                padding-bottom: 66%; }
+.bg-tasting {   background-image: url('images/tasting.jpg');
+                padding-bottom: 100%; }
 
-.bg-sommelier { background-image: url(/images/sommelier-union.png);}
+.bg-trophy { background-image: url(/images/trophy.jpg);}
 
 .bg-louis    {  background-image: url(/images/louis.png);}
 
@@ -495,6 +495,19 @@ header {
   
   .hamburger-button.active {
                 color:white;}
+
+
+/*---------------Mehr lesen----------------*/
+
+
+.more-button,
+.less-button {padding-left: 5%;
+              padding-right:5%;
+              padding-top: 2%;
+              padding-bottom:2%;
+              display: inline-block;
+              margin-top:2%;}
+
 
 
 /*----------------------Footer----------------------------*/
