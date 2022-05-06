@@ -4,24 +4,13 @@ $('.hamburger-button').click(function(){
   });
 
 
-$('.read-more').click(function(){
-    $('.more-about').show(1000);
-  });
+ $(".readmore-button").on('click' , function(){
+  $(this).parent().toggleClass("showContent");
+  //Shorthand if-else-statement
+  var replaceText = $(this).parent().hasClass("showContent") ? "Weniger" : "Mehr";
+  $(this).text(replaceText);
+ });
 
-  $('.read-more').click(function(){
-    $('.less-button').show(1000);
-    $('.more-button').hide(1000);
-  });
-
-
-$('.read-less').click(function(){
-    $('.more-about').hide(1000);
-  });
-
-$('.read-less').click(function(){
-    $('.less-button').hide(1000);
-    $('.more-button').show(1000);
-  });
 
 
 
