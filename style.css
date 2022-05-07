@@ -266,7 +266,7 @@ a:hover {       color: #4e91ad; }
 
 
 .bg-featured {  background-color: #1C2A2C; }
-.bg-dark     {  background-color: #24282B;
+.bg-dark     {  background-color: #1C2A2C;
                 color: white; }
 
 .bg-light {     background-color: rgb(248, 249, 250);}
@@ -567,6 +567,8 @@ footer h2{
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
 
 @media (max-width: 64em) {
+
+
   .show-md {    display: block; }
   .hide-md {    display: none;  }
 
@@ -591,10 +593,27 @@ footer h2{
 
   .md-font-size-big {
                 font-size: 3.3rem;}
+  .md-font-size-medium {
+                font-size: 1.2rem;
+  }
 
   .md-tall-50 { min-height: 50vh;}
   .md-tall-40 { min-height: 40vh;}
 }
+
+p#box-medium {
+  min-height: 32rem;
+  overflow: hidden;
+}
+
+ 
+.md-square {    padding-bottom: 115%;}
+
+
+
+
+
+
 
 
 
@@ -616,9 +635,12 @@ footer h2{
 }
 
     h2 {        font-size: 1.3rem;}
-    p {
-                font-size: 0.9rem;
-}
+    p,
+    li          {font-size: 0.9rem;}
+
+    h2 {font-weight: 100;}
+
+
   .show-sm {    display: block; }
   .hide-sm {    display: none;  }
 
@@ -714,6 +736,11 @@ footer h2{
 
   .testimonial-slider-container-sm {
                 padding:none;}
+
+  .p#box-medium {        height: 80rem;
+    overflow:hidden;}
+
+ 
 
  
 
