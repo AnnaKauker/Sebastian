@@ -1,7 +1,14 @@
 $('.hamburger-button').click(function(){
     $('.mobile-menu').slideToggle();
     $(this).toggleClass('active');
-  });
+});
+
+$("hide-mobile-menu").click(function(){
+    $("mobile-menu").slideUp();
+    $(this).toggleClass('inactive')
+});
+
+
 
 
  $(".readmore-button").on('click' , function(){
@@ -10,6 +17,8 @@ $('.hamburger-button').click(function(){
   var replaceText = $(this).parent().hasClass("showContent") ? "Weniger" : "Mehr";
   $(this).text(replaceText);
  });
+
+
 
 
 

@@ -82,7 +82,8 @@ html {
 .padded-1  {    padding: 1rem;  }
 .padded-2  {    padding: 2rem;  }
 .padded-25 {    padding: 2.5rem}    
-.padded-26 {    padding: 2.6rem}    
+.padded-26 {    padding: 2.6rem}
+.padded-45 {    padding: 4.5rem}    
 
 .padded-t  {    padding-top: 5%; }
 .padded-b  {    padding-bottom: 5%; }
@@ -91,6 +92,8 @@ html {
 
 .padded-tb  {   padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  {   padding-left: 5%; padding-right: 5%; }
+
+.padded-tbr {padding-top:1%; padding-bottom:1%; padding-right: 1%; padding-left:0}
 
 .padded-t-1 {   padding-top: 1rem; }
 .padded-b-1 {   padding-bottom: 1rem; }
@@ -149,12 +152,15 @@ html {
 .right  {       text-align: right; }
 
 body {
-                font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
+
+h1 {font-family: 'Cormorant Garamond', serif;}
 
 h2, h3, h4, h5, h6 {
                 line-height: 1.1;
                 margin-bottom: 1.2rem;
+                letter-spacing: 0.02rem;
   }
 
 
@@ -183,6 +189,7 @@ p, li {
                 line-height: 1.6;
                 margin-bottom: 0.8rem;
                 font-size: 1.1rem;
+                letter-spacing: 0.02rem;
 }
 
 ul { margin-left: 1rem; }
@@ -243,7 +250,7 @@ a {             color: inherit;
 
 nav a {         text-decoration: none; }
 
-a:hover {       color: #4e91ad; }
+a:hover {       color: #77a2a9; }
 
 /*---------Font Awesome Icons-------*/
 
@@ -255,6 +262,8 @@ a:hover {       color: #4e91ad; }
                 margin-bottom: 2rem;
                 color: rgb(248, 249, 250);
 }
+
+footer .fab:hover {color: #77a2a9}
 
 
 
@@ -475,7 +484,7 @@ header {
   .fixed {position: fixed;}
   
   .mobile-menu {
-                background-color: lightblue;
+                background-color: #77a2a9;
                 padding: 5%;
                 display:none;
                 position:fixed;
@@ -483,7 +492,12 @@ header {
                 bottom: 0;
                 right:0;
                 left:0;
+                max-width: 50%;
+                left:70%;
+      
   }
+
+  .mobile-menu.inactive {display:none;}
 
   .mobile-menu a {
                 text-decoration: none; 
@@ -492,10 +506,13 @@ header {
                 display: block;
                 font-weight: normal;
                 font-size: 1.5rem;
+
 }
   
   .hamburger-button.active {
                 color:white;}
+  
+ 
 
 
 /*---------------Mehr lesen----------------*/
@@ -503,7 +520,7 @@ header {
 
 
 .box a:hover {
-                background-color: #4e91ad);
+                background-color: #77a2a9);
 }
 
 .box.showContent p{
@@ -547,10 +564,19 @@ footer h2{
 .inline a {
                 display:inline-block;
                 padding-right: 1.7rem;
-                color:rgb(248, 249, 250)
   }
 
+.inline a:hover {color:#77a2a9}
+
+
  .socials {padding-top: 5%;}
+
+
+ /*--------------other-----------*/
+
+ .width-30 {max-width: 30%;}
+
+
 
 
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
@@ -607,7 +633,7 @@ p#box-medium {
 }
 
  
-.md-square {    padding-bottom: 115%;}
+
 
 
 
@@ -737,9 +763,13 @@ p#box-medium {
   .testimonial-slider-container-sm {
                 padding:none;}
 
-  .p#box-medium {        height: 80rem;
-    overflow:hidden;}
+  .p#box-medium {    
+                height: 80rem;
+                overflow:hidden;}
 
+  .md-square {  padding-bottom: 115%;}
+
+  
  
 
  
