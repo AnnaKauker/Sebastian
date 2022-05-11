@@ -3,10 +3,6 @@ $('.hamburger-button').click(function(){
     $(this).toggleClass('active');
 });
 
-$("hide-mobile-menu").click(function(){
-    $("mobile-menu").slideUp();
-    $(this).toggleClass('inactive')
-});
 
 
 

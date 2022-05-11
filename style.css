@@ -494,6 +494,7 @@ header {
                 left:0;
                 max-width: 50%;
                 left:70%;
+                color: white;
       
   }
 
@@ -542,7 +543,8 @@ span.heading-about-me  {
                 text-transform: uppercase;
                 font-family: 'Lato', sans-serif;
                 padding-top: 5%;
-                padding-bottom: 5%;}
+                padding-bottom: 5%;
+                display: inline-block;}
                 
 .box.showContent p {
                 line-height: 2rem;
@@ -632,6 +634,8 @@ p#box-medium {
   overflow: hidden;
 }
 
+.md-square {  padding-bottom: 115%;}
+
  
 
 
@@ -664,7 +668,9 @@ p#box-medium {
     p,
     li          {font-size: 0.9rem;}
 
-    h2 {font-weight: 100;}
+    h2 {        font-weight: 100;}
+
+    h3 {        padding-top: 3%;  }
 
 
   .show-sm {    display: block; }
@@ -690,6 +696,12 @@ p#box-medium {
                 padding: 1rem; }
   .sm-padded-05 {
                 padding: 0.5rem; }
+    
+  .sm-padded-3 {padding:3%;}
+
+  .sm-padded-3-t {
+                padding-top: 3%;}
+
   .sm-padded-8 {padding:8%;}
               
   .sm-padded-t-0 { 
@@ -764,11 +776,13 @@ p#box-medium {
                 padding:none;}
 
   .p#box-medium {    
-                height: 80rem;
+                height: 30rem;
                 overflow:hidden;}
+    
+  .sm-mobile-menu {min-width: 70%;
+                  left:50%}
 
-  .md-square {  padding-bottom: 115%;}
-
+  
   
  
 
