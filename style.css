@@ -903,7 +903,8 @@ p#box-medium {
 
     h2 {        font-weight: 100;}
 
-    h3 {        padding-top: 3%;  }
+    h3 {        padding-top: 3%; 
+                line-height: 3; }
 
 
   .show-sm {    display: block; }
