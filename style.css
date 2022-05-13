@@ -485,6 +485,7 @@ nav a {         text-decoration: none; }
 
 a:hover {       color: #77a2a9; }
 
+
 /*---------Font Awesome Icons-------*/
 
 .fas,
@@ -794,6 +795,7 @@ footer h2{
 .inline a {
                 display:inline-block;
                 padding-right: 1.7rem;
+                font-size: 1.5rem;
   }
 
 .inline a:hover {color:#77a2a9}
