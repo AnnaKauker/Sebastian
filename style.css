@@ -546,18 +546,7 @@ a:hover {       color: #77a2a9; }
 .bg-glas {
                 background-image: url('/images/sebastian_1.jpg'); 
                 
-                background-position: top;
-}
-.bg-nett {
-                background-image: url('/images/sebastian_6.jpg');
-                background-position: top;
-}
-.bg-rund {
-                background-image: url('/images/sebastian_15.png');
-}
-.bg-anders {
-                background-image: url('/images/the-bunker-8.jpg');
-}
+                background-position: top;}
 
 .bg-restaurant {background-image: url('images/restaurant.jpeg')}
 
@@ -566,9 +555,15 @@ a:hover {       color: #77a2a9; }
 .bg-tasting {   background-image: url('images/tasting.jpg');
                 padding-bottom: 100%; }
 
-.bg-trophy { background-image: url(/images/trophy.jpg);}
+.bg-trophy {    background-image: url(/images/trophy.jpg);}
 
 .bg-louis    {  background-image: url(/images/louis.png);}
+
+.bg-facebook {  background-image: url(/images/facebook-f.svg);}
+
+.bg-instagram { background-image: url(/images/instagram.svg);}
+
+.bg-linkedin {  background-image: url(/images/linkedin-in.svg);}
 
 .bg-padded {
                 padding-bottom: 30%;
@@ -867,7 +862,7 @@ p#box-medium {
   overflow: hidden;
 }
 
-.md-square {  padding-bottom: 115%;}
+
 
  
 
