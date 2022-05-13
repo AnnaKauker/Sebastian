@@ -534,6 +534,7 @@ a:hover {       color: #77a2a9; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
 
+
 /* Background Position */
 .bg-pos-t {      background-position: top; }
 .bg-pos-b {      background-position: bottom; }
@@ -551,7 +552,8 @@ a:hover {       color: #77a2a9; }
 
 .bg-restaurant {background-image: url('images/restaurant.jpeg')}
 
-.bg-event {     background-image: url('images/event.jpeg');}
+.bg-event {     background-image: url('images/event.jpeg');
+                min-width: 100%;}
 
 .bg-tasting {   background-image: url('images/tasting.jpg');
                 padding-bottom: 100%; }
@@ -588,6 +590,8 @@ a:hover {       color: #77a2a9; }
 [class*=grid-]>[class*=col-3] {
   flex-basis: 29%;
 }
+
+
 
 
 /*------------------- Slider------------------------------- */
@@ -860,9 +864,11 @@ footer h2{
 }
 
 p#box-medium {
-  min-height: 32rem;
-  overflow: hidden;
+                min-height: 32rem;
+                overflow: hidden;
 }
+
+.md-square    {padding-bottom: 115%;}
 
 
 
