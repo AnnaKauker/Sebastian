@@ -667,7 +667,12 @@ slick-next:before {
 
 .slider-item-p {
                 text-align: justify;
+
 }
+
+/*----------------SEO---------------*/
+
+.hide {display: none;}
 
 
 
