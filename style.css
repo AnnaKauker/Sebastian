@@ -546,7 +546,7 @@ a:hover {       color: #77a2a9; }
 .bg-bottles {    background-image: url(/images/flaschen.webp);}
 
 .bg-glas {
-                background-image: url('/images/sebastian_1.jpg'); 
+                background-image: url('/images/sebastian_3.jpg'); 
                 
                 background-position: top;}
 
@@ -555,8 +555,9 @@ a:hover {       color: #77a2a9; }
 .bg-event {     background-image: url('images/event.jpeg');
                 min-width: 100%;}
 
-.bg-tasting {   background-image: url('images/tasting.jpg');
-                padding-bottom: 100%; }
+.bg-tasting {   background-image: url('images/sebastian_5.jpg');
+                padding-bottom: 100%; 
+                background-position: 50% 39%;}
 
 .bg-trophy {    background-image: url(/images/trophy.jpg);}
 
@@ -567,6 +568,9 @@ a:hover {       color: #77a2a9; }
 .bg-instagram { background-image: url(/images/instagram.svg);}
 
 .bg-linkedin {  background-image: url(/images/linkedin-in.svg);}
+
+.bg-case  {     background-image: url(/images/sebastian_6.jpg);
+                background-position: top;}
 
 .bg-padded {
                 padding-bottom: 30%;
