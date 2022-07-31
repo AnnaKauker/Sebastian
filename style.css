@@ -548,14 +548,14 @@ a:hover {       color: #77a2a9; }
 .bg-glas {
                 background-image: url('/images/sebastian_3.jpg'); 
                 
-                background-position: top;}
+                background-position: center;}
 
 .bg-restaurant {background-image: url('images/restaurant.jpeg')}
 
 .bg-event {     background-image: url('images/event.jpeg');
                 min-width: 100%;}
 
-.bg-tasting {   background-image: url('images/sebastian_5.jpg');
+.bg-tasting {   background-image: url('images/sebastian_7.jpg');
                 padding-bottom: 100%; 
                 background-position: 50% 39%;}
 
@@ -569,7 +569,7 @@ a:hover {       color: #77a2a9; }
 
 .bg-linkedin {  background-image: url(/images/linkedin-in.svg);}
 
-.bg-case  {     background-image: url(/images/sebastian_6.jpg);
+.bg-case  {     background-image: url(/images/sebastian_8.jpg);
                 background-position: top;}
 
 .bg-padded {
