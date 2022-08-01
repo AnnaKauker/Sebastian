@@ -85,7 +85,7 @@ html {
 
 .padded-05 {    padding: 0.5rem;}
 .padded-1  {    padding: 1rem;  }
-.padded-2  {    padding: 2rem;  }
+.padded-2  {    padding: 2%;  }
 .padded-3 {     padding: 3%;}
 .padded-25 {    padding: 2.5rem}    
 .padded-26 {    padding: 2.6rem}
@@ -542,6 +542,7 @@ p a {           text-decoration: none;
 /*--------------Images-------------------------------------------*/
 
 
+.featured-color {color: #EBEBEB;}
 .bg-featured {  background-color: var(--dark); }
 .bg-dark     {  background-color: #1C2A2C;
                 color: white; }
@@ -739,13 +740,12 @@ header {
   
   .emphasis-button {
                 border: 1px solid;
+                text-transform: uppercase;
   }
 
   header .emphasis-button {margin-left: 1rem;}
 
-  .mail-button {
-                margin-left: 1rem;;
-  }
+  
   header a {
                 padding: 0.7rem;
                 text-transform: uppercase;
@@ -896,6 +896,11 @@ footer h2{
 
  .width-30 {max-width: 30%;}
 
+ .mail-button {padding: 1rem;
+                margin-top: 2%;
+                display: inline-block;
+                color: #EBEBEB;}
+
 
 
 
@@ -1002,8 +1007,6 @@ p#box-medium {
   .bg-light-sm {     background-color: rgb(248, 249, 250);}
 
   .a-inline-block {display: inline-block;}
-
-
 	 
   .sm-text-center { 
                 text-align: center; }
