@@ -848,8 +848,8 @@ header {
 }
 
 .post h3 {
-                margin-top: 2rem;
-                margin-bottom: 1rem;
+              margin-top: 2rem;
+               margin-bottom: 1rem;
 }
 
 button {
@@ -1000,6 +1000,10 @@ p#box-medium {
     h3 {        padding-top: 3%; 
                 line-height: 3; }
 
+    .h3.sm {padding-top: 0;
+                      margin-top: 0;
+                      margin-bottom: 1%;}
+
 
   .show-sm {    display: block; }
   .hide-sm {    display: none;  }
@@ -1055,8 +1059,13 @@ p#box-medium {
                 
   .sm-margin-t-0 { 
                 margin-top: 0; }
+
   .sm-margin-t-05 {
                 margin-top:0.5rem;}
+        
+  .sm-margin-t-1 {margin-top:1rem;}
+
+  .post.sm-margin-t-1 {margin-top:1rem;}
 
 
   .sm-margin-b-0 { 
@@ -1069,12 +1078,13 @@ p#box-medium {
                 margin-left: 0; }
   .sm-margin-l-05 { 
                 margin-left: 0.5rem; }
+
   .sm-margin-l-r-1 { 
                 margin-left: 1rem;
                 margin-right: 1rem;
                          }
 
-  .sm-margin-tb {
+  .sm-margin-tb-7 {
                 margin-top:7%;
                 margin-bottom: 7%}
 
@@ -1107,6 +1117,9 @@ p#box-medium {
     
   .sm-mobile-menu {min-width: 70%;
                   left:50%}
+
+
+                 
 
   
   
