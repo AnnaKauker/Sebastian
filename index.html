@@ -1,101 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-        <!-- The title for SEO & browser tabs -->
-        <title> Sebastian Russold Sommelier </title>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-9B8C94CZCX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-9B8C94CZCX');
-        </script>
-
-        <!-- Viewport meta tag -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Gridlex -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-
-        
-        <!--- Main CSS that handles all the functionality --->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <!--- Slick theme that handles the way everything slides. Optional but very helpful --->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+---
+layout: default
+---
       
-        <!--load all Font Awesome styles -->
-        <link rel="stylesheet" href="all.css">
-       
-        <!-- My own custom stylesheet -->
-        <link rel="stylesheet" href="/style.css">
+{% include banner.html %}
 
-
-
-       
-       
-
-
-</head>
-
-<body class="bg-light">
-
-<!------------------Navigation Section---------------------------------------->
-    <header class="grid md-tall-10" id="top">
-
-        <div class="col-4-middle__md-12_sm-11 md-padded-5 sm-padded-8">
-           <img src="/images/Canvas.png">
-        
-        
-        </div>
-
-        <nav class="col-8-middle_md-12_sm-12 right md-text-center padded-l hide-sm md-padded-blr-5">
-          <a href="#top"> Home </a>
-          <a href="#me"> Über mich </a>
-          <a href="#service"> Service </a>
-          <a href="#kontakt"> Kontakt </a>
-          <a href="mailto:mail@russold-sommelier.com" class="emphasis-button border-none sm-padded-l-0 a-inline-block mail-buuton"> Nachricht </a>
-        </nav>
-
-        <div class="col-4-middle right">
-          <a class="hamburger-button show-sm"> &#9776; </a>
-        </div>
-
-      </header>
-  <!-------------------------Mobile Menu-------------------------->
-
-      <div class="mobile-menu sm-mobile-menu">
-        <nav>
-          <a href="#top"> Home </a>
-          <a href="#me"> Über mich </a>
-          <a href="#service"> Service </a>
-          <a href="#kontakt"> Kontakt </a>
-          <a href="mailto:mail@russold-sommelier.com" class="emphasis-button border-none sm-padded-l-0 a-inline-block"> Nachricht </a>
-        </nav>
-      </div>
-      
-
-<!-------------------Banner Section--------------------------------------->
-
-<section class="tall-90 md-tall.100 grid sm-tall-40 banner bg-overlay">
-    <div class="col-12-middle left">
-          <h1 class=" md-padded-0 md-font-size-big sm-font-size-medium sm-margin-l-r-1">
-            Sebastian Russold. <br>Sommelier. Consulting. Event.</h1>
-        
-    </div>
-</section>
 
 
  <!-----------------Über mich Section-------------------------------------->
 
 <section class="tall-80 md-tall-50 sm-margin-l-r-1 sm-padded-3" id="me">
   <div class="grid-spaceBetween padded">
-      <div class="col-4 bg-image bg-glas bg-padded hide-md lazy"></div>
+      <div class="col-4 bg-image bg-glas bg-padded hide-md lazy" title="Sebastian Russold"></div>
       
 
    
@@ -175,7 +90,7 @@
 
         <div class="col-3_md-12 sm-stack sm-padded-3-t"> 
           <div class="card">
-            <div class="bg-image bg-restaurant square lazy"></div>
+            <div class="bg-image bg-restaurant square lazy" title="Restaurant"></div>
             <div class="padded padded-l-0">  
               <h3>Gastronomie. </h3>
               <p>Innovative, individuelle und zeitgemäße Wein- und Getränkekonzepte. </p>
@@ -193,7 +108,7 @@
 
         <div class="col-3_md-12 sm-stack sm-padded-3-t"> 
           <div class="card">
-            <div class="bg-image bg-tasting square lazy"></div>
+            <div class="bg-image bg-tasting square lazy" title="Sebastian Russold"></div>
             <div class="padded padded-l-0">  
               <h3>Events, Verkostungen und Moderation.</h3>
                   <p> </p>
@@ -207,7 +122,7 @@
           </div>
         </div> 
 
-        <div class="col-3_sm-12 sm-stack sm-padded-3-t"> 
+        <div class="col-3_sm-12 sm-stack sm-padded-3-t" title="Wine bottles"> 
           <div class="card">
             <div class="bg-image bg-event square md-square lazy"></div>
             <div class="padded padded-l-0">  
@@ -317,82 +232,4 @@
           
   </section>
   ----->
-
- <!-----------------Footer Section-------------------------------------->
-
-<section class="tall-50 md-tall-40 bg-dark sm-padded-3">
-  <div class="grid-spaceBetween padded">
-      <div class="col-4 bg-image bg-case bg-padded hide-sm lazy">
-      </div>
-
-
-      
-
-
-      <div class="col-7 xxs-stack grid" id="kontakt">
-        <div class="col-12">
-          <h2>Kontakt</h2>
-        </div>
-              
-        <div class="col-12 vertical-align">
-            <h3>Wein. Sommelier. Consulting. Event.</h3>
-            <p>Lassen Sie uns miteinander austauschen. Mit, über und rund um den Wein. </p>
-
-            <p><a href= "mailto:mail@russold-sommelier.com">mail@russold-sommelier.com</a></p>
-
-            <nav class="inline socials">
-              <a href="https://www.facebook.com/sebastian.russold" target="_blank">              
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-
-              <a href="https://www.instagram.com/sebastianrussold/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-
-              <a href="https://de.linkedin.com/in/sebastian-russold?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </nav>
-          </div>
-
-          <div class="col-12-bottom padded-t">
-            <a href="agb.html#impressum" class="padded-r-1">Impressum</a>
-            <a href="agb.html#bildrechte" class="padded-r-1">Bildrechte</a>
-            <a href="agb.html#agb" class="padded-r-1">AGB</a>
-            <a href="agb.html#datenschutzerklärung" class="padded-r-1">Datenschutzerklärung</a>
-          </div>  
-
-      </div>
-      
-     
-
-  </div> 
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-  <!----------jQuery-->
-  
-
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  <script type="text/javascript" src="all.js"></script>
-  
-  <script type="text/javascript" src="main.js"></script>
-</body>
-</html>
-
 
