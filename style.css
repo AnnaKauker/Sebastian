@@ -771,6 +771,40 @@ header {
   
   .hamburger-button.active {
                 color:white;}
+
+
+/*----------------Overlay--------------*/
+
+.banner {
+                background-image: url('/images/bottles.jpg');
+                background-size: cover;
+                background-position: center;
+                min-height: 90vh;
+                padding: 5%;
+}
+
+.banner h1 {
+                color: white;
+                line-height: 3.4rem;
+}
+
+.bg-overlay {
+                position: relative;
+}
+
+.bg-overlay::before {
+                content: ""; 
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-color: rgba(0,0,0,0.5);
+}
+
+.bg-overlay > * {
+                position: relative;
+}
   
  
 
