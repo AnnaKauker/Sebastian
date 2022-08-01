@@ -143,6 +143,7 @@ html {
 .margin-r-2 {   margin-right: 2rem; }
 
 .margin-tb {    margin-top: 5%; margin-bottom: 5%; }
+.margin-tb-10 {    margin-top: 10%; margin-bottom: 10%; }
 .margin-lr {    margin-left: 5%; margin-right: 5%; }
 .margin-lr-7 {  margin-left: 7%; margin-right:7%;}
 
@@ -498,6 +499,10 @@ li:last-child {
                 margin-right: 1rem;
                 }
 
+.service h3 {
+  margin-top: 1rem;
+}
+
 
 
 /*--------Link Styles-------*/
@@ -633,6 +638,7 @@ a:hover {       color: #77a2a9; }
                 padding:2%;
                 max-width: 900px;
                 margin: auto; /*centers the text evenly*/
+                margin-top: 5%;
 }
 
   
