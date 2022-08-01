@@ -7,12 +7,17 @@ $('.hamburger-button').click(function(){
 
 
 
- $(".readmore-button").on('click' , function(){
-  $(this).parent().toggleClass("showContent");
-  //Shorthand if-else-statement
-  var replaceText = $(this).parent().hasClass("showContent") ? "Weniger" : "Mehr";
-  $(this).text(replaceText);
- });
+  $(".read").click(function(){
+     $(this).prev().toggle();
+     $(this).siblings('.dots').toggle();
+     if($(this).text()=='Mehr'){
+      $(this).text('Weniger');
+          }
+          else{
+      $(this).text('Mehr');
+          };
+       });
+
 
 
 

@@ -718,6 +718,9 @@ header {
                 border: 1px solid;
   }
 
+  .mail-button {
+                margin-left: 1rem;;
+  }
   header a {
                 padding: 0.5rem;
   }
@@ -786,6 +789,7 @@ header {
 .banner h1 {
                 color: white;
                 line-height: 3.4rem;
+                letter-spacing: 0.1rem;
 }
 
 .bg-overlay {
@@ -806,42 +810,32 @@ header {
                 position: relative;
 }
   
- 
 
+/* Mehr/Weniger Button */
 
-/*---------------Mehr lesen----------------*/
-
-
-
-.box a:hover {
-                background-color: #77a2a9);
+.more {
+  display: none;
 }
 
-.box.showContent p{
-                height:auto;}
-
-.box.showContent a.readmore-button {
-               padding:2% 5%;
-               display: inline-block;}
-  
-a.readmore-button.emphasis-button {padding:2% 5%;
-  display: inline-block;}
-
-.box p {        height: 30rem;
-                overflow:hidden;}
-
-
-span.heading-about-me  {
-                font-weight: 900;
-                text-transform: uppercase;
-                font-family: 'Lato', sans-serif;
-                padding-top: 2%;
-                padding-bottom: 2%;
-                display: inline-block;}
-                
-.box.showContent p {
-                line-height: 2rem;
+.post {
+  text-align: justify;
 }
+
+.post h3 {
+  margin-top: 1rem;
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border: 1px solid;
+  cursor: pointer;
+}
+
 
 
 /*----------------------Footer----------------------------*/
