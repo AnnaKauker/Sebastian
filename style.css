@@ -453,7 +453,7 @@ p, li {
 ul { margin-left: 1rem; }
 li { padding-left: 1.5rem;}
 
-h2:last-child, 
+h2:last-child,
 h3:last-child, 
 h4:last-child, 
 h5:last-child, 
@@ -882,7 +882,7 @@ footer h2{
 }
 
 .inline a {
-                display:inline-block;
+                display: inline-block;
                 padding-right: 1.7rem;
                 font-size: 1.5rem;
   }
@@ -891,6 +891,8 @@ footer h2{
 
 
  .socials {padding-top: 5%;}
+
+ footer a {display: inline-block;}
 
 
  /*--------------other-----------*/
@@ -999,11 +1001,12 @@ p#box-medium {
     h2 {        font-weight: 100;}
 
     h3 {        padding-top: 3%; 
-                line-height: 3; }
+                 }
 
     .h3.sm {padding-top: 0;
                       margin-top: 0;
-                      margin-bottom: 1%;}
+                      margin-bottom: 1%;
+                      line-height: 3;}
 
 
   .show-sm {    display: block; }
@@ -1049,7 +1052,7 @@ p#box-medium {
   .sm-padded-tb-05 { 
                   padding-bottom: 0.5rem; 
                   padding-top: 0.5rem;}
-  .sm-padded-tb-05 { 
+  .sm-padded-tb-1 { 
                   padding-bottom: 1rem; 
                   padding-top: 1rem;}
 
