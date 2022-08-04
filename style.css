@@ -149,6 +149,8 @@ html {
 .margin-lr {    margin-left: 5%; margin-right: 5%; }
 .margin-lr-7 {  margin-left: 7%; margin-right:7%;}
 
+.margin-t-minus {margin-top: -4%;}
+
 .center-vertical {
                 justify-content: center;
 }
@@ -408,6 +410,24 @@ html {
        url('../fonts/cormorant-garamond-v15-latin-700italic.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
   font-display: swap;}
 
+  /* didot lt std italic */
+
+  @font-face {
+    font-family: 'Didot LT STD';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/workspaces/Sebastian/fonts/didot-lt-std-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/workspaces/Sebastian/fonts/didot-lt-std-italic.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/workspaces/Sebastian/fonts/didot-t-std-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/workspaces/Sebastian/fonts/didot-t-std-italic.woff') format('woff'), /* Modern Browsers */
+       url('/workspaces/Sebastian/fonts/didot-t-std-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/workspaces/Sebastian/fonts/didot-t-std-italic.svg#DidotLTSTD') format('svg'); /* Legacy iOS */
+       font-dsiplay: swap;}
+
+
+
+
 .left   {       text-align: left; }
 .center {       text-align: center; }
 .right  {       text-align: right; }
@@ -421,20 +441,22 @@ html {
 body {          font-family: 'Source Sans 3', sans-serif;
 }
 
-h1, h2,h3,h4,h5,h6 {            
-                font-family: 'Cormorant Garamond', serif;
+
+
+h1,h2,h3,h4,h5,h6 {            
+                font-family: 'Didot LT STD', serif;
+                font-style: italic;
                 font-weight: 900;
-                text-transform: uppercase;
                 line-height: 1.1;
                 margin-bottom: 1.2rem;
-                letter-spacing: 0.02rem;}
+                letter-spacing: 0.04rem;}
 
 
 h1 {            font-size: 3rem;}
 h2 {            font-size: 1.5rem;} 
 h3 {            font-weight: 100;}
 
-.light-text {    color: var(--light); } 
+.light-text {    color: white; } 
 
 .not-bold {     font-weight: 400; }
 
@@ -578,7 +600,7 @@ p a {           text-decoration: none;
 .bg-pos-l {      background-position: left; }
 .bg-pos-r {      background-position: right; }
 
-.bg-logo {       background-image: url(/images/logo_sebastian_russold.png);
+.bg-logo {       background-image: url(/images/logo_white_web_sebastian.png);
                  max-height: fit-content;
               }
 
@@ -734,27 +756,32 @@ header {
                
   }
 
-  header h2 {
-                text-decoration: none;
-  }
+  .navigation  {z-index: 1;}
+
+  .header-h1 {font-size: 1.4rem;
+              padding-top: 1%;;}
 
   
   
   .emphasis-button {
                 border: 1px solid;
-                text-transform: uppercase;
+              
   }
 
-  header .emphasis-button {margin-left: 1rem;}
+ .navigation .emphasis-button {margin-left: 1rem;}
 
   
-  header a {
+ .navigation a {
                 padding: 0.7rem;
                 text-transform: uppercase;
   }
 
   .fixed {      position: fixed;
                 }
+
+  .logo {       margin-bottom: 10%;
+                max-width: 55%;
+  }}
 
   /*--------------Hamburger Menu-----------------*/
 
@@ -785,6 +812,7 @@ header {
                 max-width: 50%;
                 left:70%;
                 color: white;
+                z-index: 1;
       
   }
 
@@ -907,6 +935,8 @@ footer h2{
                 color: inherit;}
   
 .mail-button:hover {color: #77a2a9;}
+
+.hide {display: none;}
 
 
 
@@ -1062,6 +1092,9 @@ p#box-medium {
 
   .sm-padded-l-0 { 
                 padding-left: 0; }
+
+  .sm-padded-l-5 { 
+                  padding-left: 5%; }
   .sm-padded-r-0 { 
                 padding-right: 0; }
                 
@@ -1103,10 +1136,10 @@ p#box-medium {
               
 
   .sm-font-size-small {
-                font-size: 0.9rem;
+                font-size: 0.7rem;
                 }
   .sm-font-size-medium {
-                font-size: 1.6rem;
+                font-size: 1.3rem;
   }
 
   .sm-tall-30 { min-height: 30vh;}
@@ -1126,6 +1159,8 @@ p#box-medium {
   .sm-mobile-menu {min-width: 70%;
                   left:50%}
 
+  .banner-sm h1{  line-height: 2.4rem; }
+
 
                  
 
@@ -1137,7 +1172,7 @@ p#box-medium {
 
 
 
-}
+
               
 /* ------- XS Media Query (36em / 576px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
