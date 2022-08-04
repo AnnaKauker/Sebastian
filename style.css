@@ -55,6 +55,8 @@ html {
 
 
 
+
+
 /* ---------- Negative Space Utility Classes  ------------------ */ 
 
 .capped-width-wide      { max-width: 1600px; margin: auto; }
@@ -547,7 +549,7 @@ p a {           text-decoration: none;
 .bg-dark     {  background-color: #1C2A2C;
                 color: white; }
 
-.bg-light {     background-color: rgb(248, 249, 250);}
+.bg-light {     background-color: white;}
 .bg-white {     background-color: white;}
 .bg-blue {      background-color: rgb(29,53,87);}
 .bg-lilac {     background-color:rgb(114, 103, 139)}
@@ -902,7 +904,9 @@ footer h2{
  .mail-button {padding: 1rem;
                 margin-top: 2%;
                 display: inline-block;
-                color: #EBEBEB;}
+                color: inherit;}
+  
+.mail-button:hover {color: #77a2a9;}
 
 
 
