@@ -909,7 +909,7 @@ footer h2{
                 font-size: 1.5rem;
                 line-height: 1;
                 margin-bottom: 3.2rem;
-}
+      }
 
 .inline a {
                 display: inline-block;
@@ -917,26 +917,59 @@ footer h2{
                 font-size: 1.5rem;
   }
 
-.inline a:hover {color:#77a2a9}
+.inline a:hover {
+                color:#77a2a9}
 
 
- .socials {padding-top: 5%;}
+ .socials {     padding-top: 5%;}
 
- footer a {display: inline-block;}
+ footer a {     display: inline-block;}
+
+
+ /*-------Cookie Banner----------*/
+
+ #cookie-notice {
+                padding: 0.5rem 1rem;
+                display: none;
+                text-align: center;
+                position: fixed;
+                left: 1rem;
+                right: 1rem;
+                bottom: 0;
+                width: calc(100% - 2rem);
+                background: #222;
+                color: rgba(255,255,255,0.8);
+                min-height: 10vh;
+}
+#cookie-notice a {
+                display: inline-block;
+                cursor: pointer;
+                margin-left: 0.5rem;
+}
+#cookie-notice .button-subtle {
+                opacity: 0.8;
+}
+#close-cookie-banner {
+                padding: 1rem;
+                cursor: pointer;
+                font-size: 0.8rem;
+                opacity: 0.5
+}
 
 
  /*--------------other-----------*/
 
- .width-30 {max-width: 30%;}
+ .width-30 {    max-width: 30%;}
 
- .mail-button {padding: 1rem;
+ .mail-button { padding: 1rem;
                 margin-top: 2%;
                 display: inline-block;
                 color: inherit;}
   
-.mail-button:hover {color: #77a2a9;}
+.mail-button:hover {
+                color: #77a2a9;}
 
-.hide {display: none;}
+.hide {         display: none;}
 
 
 
